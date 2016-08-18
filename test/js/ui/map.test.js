@@ -122,7 +122,7 @@ test('Map', function(t) {
             },
             interactive: false,
             attributionControl: false,
-            sourceTypes: {
+            customSourceTypes: {
                 'tic': function () {},
                 'tac': function () {}
             },

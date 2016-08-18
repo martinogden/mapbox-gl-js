@@ -203,9 +203,9 @@ var Map = module.exports = function(options) {
     this.resize();
 
     if (options.classes) this.setClasses(options.classes);
-    if (options.sourceTypes) {
-        for (var sourceTypeName in options.sourceTypes) {
-            Source.addType(sourceTypeName, options.sourceTypes[sourceTypeName]);
+    if (options.customSourceTypes) {
+        for (var sourceTypeName in options.customSourceTypes) {
+            Source.addType(sourceTypeName, options.customSourceTypes[sourceTypeName]);
         }
     }
     if (options.style) this.setStyle(options.style);
