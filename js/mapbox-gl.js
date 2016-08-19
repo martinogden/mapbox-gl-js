@@ -13,6 +13,8 @@ mapboxgl.Attribution = require('./ui/control/attribution');
 mapboxgl.Popup = require('./ui/popup');
 mapboxgl.Marker = require('./ui/marker');
 
+mapboxgl.WorkerPool = require('./util/worker_pool');
+
 mapboxgl.Style = require('./style/style');
 
 mapboxgl.LngLat = require('./geo/lng_lat');
